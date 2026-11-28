@@ -5,11 +5,11 @@
   "description": "Hack Uttar Pradesh 2026 Official Website",
   "type": "module",
   "scripts": {
-    "dev": "vite new_website --port 3000",
-    "build": "vite build new_website --outDir ../dist --emptyOutDir",
-    "preview": "vite preview new_website"
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "devDependencies": {
+  "dependencies": {
     "vite": "^6.0.0"
   }
 }
