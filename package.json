@@ -1,0 +1,15 @@
+{
+  "name": "hack-uttar-pradesh-2026",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hack Uttar Pradesh 2026 Official Website",
+  "type": "module",
+  "scripts": {
+    "dev": "vite new_website --port 3000",
+    "build": "vite build new_website --outDir ../dist",
+    "preview": "vite preview new_website"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
