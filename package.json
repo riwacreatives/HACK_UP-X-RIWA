@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite new_website --port 3000",
-    "build": "vite build new_website --outDir ../dist",
+    "build": "vite build new_website --outDir ../dist --emptyOutDir",
     "preview": "vite preview new_website"
   },
   "devDependencies": {

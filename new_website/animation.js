@@ -126,7 +126,7 @@ function initHeroCanvas() {
     // --- A. Draw 3D Perspective Retro Grid on Horizon ---
     const horizonY = height * 0.72;
     const gridOffset = (time * 28) % 36;
-    
+
     ctx.save();
     ctx.strokeStyle = 'rgba(12, 27, 42, 0.045)';
     ctx.lineWidth = 1;
